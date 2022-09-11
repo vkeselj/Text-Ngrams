@@ -1,4 +1,4 @@
-# (c) 2003-2019 Vlado Keselj http://web.cs.dal.ca/~vlado
+# (c) 2003-2022 Vlado Keselj http://web.cs.dal.ca/~vlado
 #
 # Text::Ngrams - A Perl module for N-grams processing
 
@@ -990,7 +990,7 @@ that you used the module.
 
 Author:
 
- 2003-2019 Vlado Keselj http://web.cs.dal.ca/~vlado
+ 2003-2022 Vlado Keselj http://web.cs.dal.ca/~vlado
 
 Contributors:
 

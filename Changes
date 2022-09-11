@@ -1,7 +1,8 @@
 Revision history for Perl extension Text::Ngrams.
 
-2.007
+2.007  Sat Sep 10 21:16:02 ADT 2022
 	- documentation improvements
+	- import to GitHub under https://github.com/vkeselj/Text-Ngrams
 
 2.006  Sun Feb 12 11:15:29 AST 2017
 	- fixed that files are always read in binary mode (for

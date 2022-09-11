@@ -2,7 +2,8 @@
 
 use strict;
 use vars qw($VERSION);
-#<? read_starfish_conf(); echo "\$VERSION = $ModuleVersion;"; !>
+#<? read_starfish_conf(); echo "\$VERSION = $ModuleVersion;"; !>#+
+$VERSION = 2.007;#-
 #+
 $VERSION = 2.007;
 #-
