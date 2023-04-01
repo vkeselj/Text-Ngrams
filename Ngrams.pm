@@ -7,11 +7,10 @@ package Text::Ngrams;
 use strict;
 require Exporter;
 use Carp;
-use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
+use vars qw($VERSION @ISA @EXPORT_OK %EXPORT_TAGS);
 @ISA = qw(Exporter);
-%EXPORT_TAGS = ( 'all' => [ qw(new encode_S decode_S) ] );
+%EXPORT_TAGS = ( 'all' => [ qw(encode_S decode_S) ] );
 @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
-@EXPORT = qw(new);
 $VERSION = '2.007';
 
 use vars qw($Version);
