@@ -3,7 +3,7 @@
 
 use Test::More tests => 5;
 use_ok("Text::Ngrams");
-require 't/auxfunctions.pl';
+require './t/auxfunctions.pl';
 
 my $ng = Text::Ngrams->new(windowsize=>2, type=>'word');
 $ng->process_files('t/05.in');
