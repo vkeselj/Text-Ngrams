@@ -2,7 +2,7 @@
 
 use Test::More tests => 2;
 BEGIN { use_ok("Text::Ngrams", qw(encode_S decode_S)) }
-require 't/auxfunctions.pl';
+require './t/auxfunctions.pl';
 
 use strict;
 

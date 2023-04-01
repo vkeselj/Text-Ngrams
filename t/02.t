@@ -2,7 +2,7 @@
 
 use Test::More tests => 4;
 BEGIN { use_ok("Text::Ngrams", qw(encode_S decode_S)) }
-require 't/auxfunctions.pl';
+require './t/auxfunctions.pl';
 
 my $ng3 = Text::Ngrams->new;
 $ng3->process_text('abcdefg1235678hijklmnop');

@@ -2,7 +2,7 @@
 
 use Test::More tests => 5;
 use_ok("Text::Ngrams");
-require 't/auxfunctions.pl';
+require './t/auxfunctions.pl';
 
 my $ng3 = Text::Ngrams->new;
 $ng3->feed_tokens('a');
