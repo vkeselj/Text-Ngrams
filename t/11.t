@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 require 't/auxfunctions.pl';
 
-my $com = "perl -Mblib ./ngrams.pl --n=10 --orderby=frequency --type=byte".
+my $com = "$^X  -Mblib ./ngrams.pl --n=10 --orderby=frequency --type=byte".
                  " --normalize --onlyfirst=100 t/11.in";
 my $out = scalar(`$com`);
 
