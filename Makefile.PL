@@ -25,7 +25,13 @@ WriteMakefile (
     ),
     EXE_FILES => [ 'ngrams.pl' ],
     MAN3PODS => { 'Ngrams.pm' => 'blib/man3/Text::Ngrams.3' },
-    MAN1PODS => { 'ngrams.pl' => 'blib/man1/ngrams.pl.1' }
+    MAN1PODS => { 'ngrams.pl' => 'blib/man1/ngrams.pl.1' },
+    META_ADD => {
+     resources => {
+       homepage => "https://github.com/vkeselj/Text-Ngrams",
+       repository => "git://github.com/vkeselj/Text-Ngrams.git"
+     }
+    },
    );
 
 open(M, ">>Makefile") or die;
